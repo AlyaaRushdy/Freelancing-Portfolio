@@ -1,5 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
+import profileImage from "../../assets/profile.png";
 function Navbar() {
   return (
     <>
@@ -12,7 +13,7 @@ function Navbar() {
           <span className="d-none d-lg-block">
             <img
               className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="./src/assets/profile.png"
+              src={profileImage}
               alt="Alyaa's Image"
             />
           </span>
